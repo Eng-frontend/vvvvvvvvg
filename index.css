@@ -1,0 +1,22 @@
+*{
+    padding: 0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+body{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+@media (max-width:768px){
+   .parent{
+    background-color: red;
+    width:75%;
+    height:690px;
+    margin-left: 12.5%;
+    margin-right: 12.5%;
+}  
+}
+
+
